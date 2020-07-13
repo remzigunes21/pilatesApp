@@ -29,7 +29,7 @@ const RootStack = createStackNavigator();
 
 function HomeStackNavigator() {
   return (
-    <HomeStack.Navigator initialRouteName="Detail">
+    <HomeStack.Navigator initialRouteName="Home">
       <HomeStack.Screen
         name="Home"
         component={HomeScreen}
